@@ -11,7 +11,6 @@
 }
 body{
   background:#A0C49D;
-  max-width: 100%;
 }
 
 .select-box .content .title{
@@ -28,8 +27,7 @@ text-align: center;
   background: #fff;
   padding: 20px 25px 25px;
   border-radius: 5px;
-  max-width: 55%;
-  height: 50%;
+  max-width: 400px;
   width: 100%;
 }
 .select-box.hide{
@@ -52,7 +50,7 @@ text-align: center;
   width: 100%;
 }
 .options button{
-  width: 50%;
+  width: 100%;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
@@ -63,7 +61,6 @@ text-align: center;
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 50px;
 }
 .options button:hover,
 .btn button:hover{
@@ -155,7 +152,7 @@ text-align: center;
   left: 50%;
 }
 .play-area{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .play-area section{
   display: flex;
@@ -163,11 +160,11 @@ text-align: center;
 }
 .play-area section span{
   display: block;
-  height: 170px;
-  width: 200px;
+  height: 90px;
+  width: 90px;
   margin: 2px;
   color: #A0C49D;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 80px;
   text-align: center;
   border-radius: 5px;
@@ -243,17 +240,53 @@ footer a {
 
   text-decoration: none;
 }
+/* Add a media query for mobile devices */
 @media (max-width: 600px) {
-  footer {
-    font-size: small;
+  .select-box, .play-board, .result-box {
+    top: 40%;
+    max-width: 90%;
   }
-  .select-box{
-    max-width: 65%;
-    height: 0;
-    
+  
+  .select-box {
+    padding: 15px 20px;
   }
-}
-
-body {
-  background: #a0c49d;
+  
+  .play-board, .result-box {
+    padding: 20px;
+  }
+  
+  .play-area section span {
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  
+  .select-box header {
+    font-size: 24px;
+  }
+  
+  .select-box .title {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .options button {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  
+  .select-box .credit {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .result-box .won-text {
+    font-size: 24px;
+  }
+  
+  .result-box .btn button {
+    font-size: 16px;
+    padding: 6px 15px;
+  }
 }
