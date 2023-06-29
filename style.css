@@ -218,4 +218,35 @@ text-align: center;
 
 header{
   text-align: center;
+}footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+footer a {
+
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  footer {
+    font-size: small;
+  }
+
+}
+
+body {
+  background: #a0c49d;
 }
