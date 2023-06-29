@@ -240,53 +240,46 @@ footer a {
 
   text-decoration: none;
 }
-/* Add a media query for mobile devices */
 @media (max-width: 600px) {
-  .select-box, .play-board, .result-box {
-    top: 40%;
-    max-width: 90%;
-  }
-  
-  .select-box {
-    padding: 15px 20px;
-  }
-  
-  .play-board, .result-box {
-    padding: 20px;
-  }
-  
-  .play-area section span {
-    height: 60px;
-    width: 60px;
-    font-size: 30px;
-    line-height: 50px;
-  }
-  
+  /* Increase font sizes */
+  body,
   .select-box header {
     font-size: 24px;
   }
-  
+
   .select-box .title {
     font-size: 18px;
-    margin: 15px 0;
   }
-  
+
   .options button {
     font-size: 16px;
     padding: 8px 0;
   }
-  
-  .select-box .credit {
+
+  .credit {
     font-size: 16px;
-    margin-top: 15px;
   }
-  
+
+  .play-board .players span {
+    font-size: 16px;
+  }
+
+  .play-area section span {
+    height: 70px;
+    width: 70px;
+    font-size: 32px;
+    line-height: 60px;
+  }
+
   .result-box .won-text {
     font-size: 24px;
   }
-  
+
   .result-box .btn button {
     font-size: 16px;
-    padding: 6px 15px;
+    padding: 6px 16px;
   }
+}
+footer {
+  font-size: small;
 }
