@@ -247,7 +247,11 @@ footer a {
   footer {
     font-size: small;
   }
-
+  .select-box{
+    max-width: 65%;
+    height: 0;
+    
+  }
 }
 
 body {
