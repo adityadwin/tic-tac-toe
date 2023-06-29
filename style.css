@@ -160,8 +160,8 @@ text-align: center;
 }
 .play-area section span{
   display: block;
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   margin: 2px;
   color: #A0C49D;
   font-size: 40px;
@@ -265,8 +265,8 @@ footer a {
   }
 
   .play-area section span {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     font-size: 32px;
     line-height: 60px;
   }
