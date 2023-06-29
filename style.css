@@ -11,6 +11,7 @@
 }
 body{
   background:#A0C49D;
+  max-width: 100%;
 }
 
 .select-box .content .title{
@@ -27,7 +28,8 @@ text-align: center;
   background: #fff;
   padding: 20px 25px 25px;
   border-radius: 5px;
-  max-width: 400px;
+  max-width: 55%;
+  height: 50%;
   width: 100%;
 }
 .select-box.hide{
@@ -50,7 +52,7 @@ text-align: center;
   width: 100%;
 }
 .options button{
-  width: 100%;
+  width: 50%;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 0;
@@ -61,6 +63,7 @@ text-align: center;
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: 50px;
 }
 .options button:hover,
 .btn button:hover{
@@ -152,7 +155,7 @@ text-align: center;
   left: 50%;
 }
 .play-area{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .play-area section{
   display: flex;
@@ -160,11 +163,11 @@ text-align: center;
 }
 .play-area section span{
   display: block;
-  height: 90px;
-  width: 90px;
+  height: 170px;
+  width: 200px;
   margin: 2px;
   color: #A0C49D;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 80px;
   text-align: center;
   border-radius: 5px;
